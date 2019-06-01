@@ -1,0 +1,24 @@
+{
+  "name": "petsapi",
+  "version": "1.0.0",
+  "description": "petsapi",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "knex": "knex",
+    "create-migration": "knex migrate:make",
+    "up-migrations": "knex migrate:latest",
+    "rollback-migrations": "knex migrate:rollback"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "knex": "^0.17.1",
+    "moment": "^2.24.0",
+    "mysql2": "^1.6.5",
+    "objection": "^1.6.9"
+  }
+}
